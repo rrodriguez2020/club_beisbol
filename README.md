@@ -1,6 +1,6 @@
-# Mi Proyecto
+# Mi Proyecto Club de béisbol
 
-Este es un proyecto de ejemplo para demostrar cómo se utiliza un archivo README.md.
+Este proyecto es una aplicación web para gestionar un club de béisbol.
 
 ## Instalación
 
