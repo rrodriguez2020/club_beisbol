@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Club de Béisbol Tiburones</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!--<link rel="stylesheet" href="css/styles.css">-->
+</head>
+<body>
+    <!-- Encabezado con Imagen -->
+    <div class="text-center my-4">
+        <img src="img/Logo.png" alt="Equipo Tiburones" class="img-fluid" style="max-height: 100px;">
+    </div>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo del Club" width="30" height="30" class="d-inline-block align-text-top">
+                Club de Béisbol
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <!-- Menú desplegable de Equipos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="equiposDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Equipos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="equiposDropdown">
+                            <li><a class="dropdown-item" href="roster.php">Tiburones</a></li>
+                            <!-- Puedes agregar más equipos aquí -->
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resultados.php">Resultados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Calendario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Estadísticas</a>
+                    </li>
+                </ul>
+                <!-- Aquí podrías agregar íconos o enlaces adicionales -->
+            </div>
+        </div>
+    </nav>
+
+      <!-- Contenido principal -->
+      <div class="container mt-4">
+        <h1 class="mb-4">Equipo de Béisbol Tiburones - Buenos Aires, CABA</h1>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Detalles del Equipo</h3>
+                <ul class="list-unstyled">
+                    <li><strong>Localidad:</strong> Buenos Aires, CABA</li>
+                    <li><strong>Equipo:</strong> Tiburones</li>
+                    <li><strong>Categorías:</strong> A2 y A3</li>
+                    <li><strong>Manager:</strong> Germán Guía</li>
+                    <li><strong>Coach:</strong> Eric Guía</li>
+                    <li><strong>Temporada:</strong> 2023-2024</li>
+                    <li><strong>Comunidad:</strong> Venezolana</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Descripción del Equipo</h3>
+                <p>El equipo Tiburones, ubicado en la vibrante ciudad de Buenos Aires, CABA, se destaca en la liga de béisbol mayor, compitiendo en las categorías A2 y A3. Bajo la dirección de Germán Guía, un manager con gran experiencia, y con el apoyo del coach Eric Guía, el equipo ha mostrado un rendimiento sólido y un espíritu competitivo en la temporada 2023-2024.</p>
+                <p>El club está conformado principalmente por una comunidad venezolana, lo que le da una identidad única y un fuerte sentido de camaradería. Los Tiburones no solo representan su pasión por el béisbol, sino también un vínculo cultural y social que une a la comunidad venezolana en Buenos Aires.</p>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h3>Participación en la Temporada 2023-2024</h3>
+            <p>Durante la temporada pasada, los Tiburones demostraron su habilidad y perseverancia en el campo, enfrentando a equipos desafiantes en ambas categorías. Su participación activa y competitiva es un reflejo de su compromiso con el deporte y la unidad de su comunidad.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

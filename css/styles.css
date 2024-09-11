@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Barra de navegación */
+.navbar {
+    background-color: #001f3f; /* Azul oscuro personalizado */
+}
+
+/* Texto de la barra de navegación */
+.navbar-brand, .nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Color amarillo al pasar el mouse */
+}
+
+/* Estilo para la imagen principal */
+.container {
+    max-width: 1200px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para las listas de navegación lateral (si es necesario) */
+.sidebar-nav {
+    position: fixed;
+    top: 80px; /* Ajustar según la altura de la barra de navegación */
+    left: 0;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.sidebar-nav a {
+    display: block;
+    margin-bottom: 10px;
+    color: #001f3f;
+    text-align: center;
+    font-weight: bold;
+}
