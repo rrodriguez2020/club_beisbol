@@ -1,4 +1,4 @@
-# Mi Proyecto Club de béisbol
+# Proyecto Club de béisbol
 
 Este proyecto es una aplicación web para gestionar un club de béisbol.
 
